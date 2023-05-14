@@ -405,7 +405,7 @@ header {
     justify-content: center;
     align-items: center;
     margin-top: 5rem;
-    
+    transition: var(--transition);
 }
 
 .profile__area .outer__circle {
@@ -636,7 +636,7 @@ section#about > h5 {
     border-radius: .25rem;
 }
 .skills__bar{
-    background-color: var(--color-primary-variant);
+    background-color: var(--color-light);
 }
 .skills__percentage{
     display: block;
@@ -651,33 +651,33 @@ section#about > h5 {
     width: 80%;
 }
 .skills__js{
-    width: 75%;
+    width: 30%;
 }
 .skills__react{
-    width: 70%;
+    width: 30%;
 }
 /*==================== PERCENT BACKEND ====================*/
 .skills__php{
     width: 35%;
 }
 .skills__node{
-    width: 30%;
+    width: 10%;
 }
 .skills__python{
-    width: 20%;
+    width: 10%;
 }
 .skills__laravel{
-    width: 15%;
+    width: 10%;
 }
 /*==================== PERCENT UI ====================*/
 .skills__xd{
-    width: 80%;
+    width: 60%;
 }
 .skills__ps{
-    width: 90%;
+    width: 60%;
 }
 .skills__figma{
-    width: 70%;
+    width: 40%;
 }
 .skills__close .skills__list{
     height: 0;
@@ -724,6 +724,9 @@ section#about > h5 {
 .qualification__data:nth-child(2) {
     text-align: left;
 }
+.qualification__data:nth-child(3) {
+    text-align: right;
+}
 .qualification__title{
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
@@ -732,6 +735,7 @@ section#about > h5 {
     display: inline-block;
     font-size: var(--small-font-size);
     margin-bottom: var(--mb-1);
+    color: var(--color-light);
 }
 .qualification__calendar{
     font-size: var(--smaller-font-size);
@@ -1619,7 +1623,7 @@ footer a {
     /* ===================== HEADER ===================== */
     .header__container {
         height: 100%;
-        padding-bottom: 11rem;
+        padding-bottom: 14rem;
     }
     .header__container > h2 {
         font-size: 2rem;
@@ -1659,7 +1663,7 @@ footer a {
     
     /* ===================== PROFILE =================== */
     .profile__area {
-        margin-top: 2.5rem;
+        margin-top: 4.5rem;
     }
     
     .profile__area .outer__circle {
